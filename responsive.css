@@ -1,0 +1,196 @@
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    /* header */
+
+   .top-bar {
+    display: none;
+   }
+   .testimonial-sec {
+    display: none;
+   }
+
+   .navbar {
+    width: 95%;
+   }
+
+   .logo {
+    width: 150px;
+   }
+   
+   .link {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212531;
+    position: absolute;
+    gap: 20px;
+    left: -100%;
+    margin-top: 392px;
+    z-index: 1111;
+    transition: all 0.3s;
+   }
+   .home-link {
+    margin-top: -10px;
+   }
+   .home-link a {
+    color: #fff;
+   }
+
+   .underline a{
+    color: #fff;
+   }
+    .line {
+        background-color: #fff;
+    }
+   
+   .btn-search {
+    height: auto;
+    width: auto;
+    gap: 10px;
+    /* margin-right: 20px; */
+   }
+   .btn-search i {
+    display: none;
+   }
+   .btn {
+    padding: 8px 10px;
+    font-size: 14px;
+   }
+   .hamburger {
+    font-size: 25px;
+    padding-right: 20px;
+   }
+
+   /* header-end */
+
+
+
+
+
+   /* page-1 */
+   .page1 {
+    height: auto;
+   }
+   .page1-main {
+    flex-direction: column;
+    width: 90%;
+    gap: 100px;
+    padding: 80px 0;
+   }
+   .page1-cont {
+    width: 100%;
+   }
+   .page1-cont-img {
+    height: 365px;
+    width: 275px;
+   }
+   .page1-cont-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+   .page1-cont-img-2 {
+    height: 250px;
+    width: 210px;
+   }
+   .head-txt {
+    font-size: 35px;
+   }
+   .our-comp {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+   }
+   .learn-more {
+    margin-top: 80px;
+   }
+
+
+   /* page2 */
+   .header h1 {
+    font-size: 28px;
+   }
+   .card {
+    width: 100%;
+   }
+
+
+
+   /* page3 */
+
+   .page3 {
+    height: auto;
+   }
+
+   .page3-main {
+    width: 90%;
+    padding: 20px 60px;
+   }
+   .page3-head {
+    width: 360px;
+    margin-left: -60px;
+   }
+   .title-2 {
+    font-size: 35px;
+   }
+   .page3-row-1 {
+    width: 380px;
+    flex-direction: column;
+    margin-left: -53px;
+   }
+   .page3-img {
+    height: auto;
+    width: 90%;
+   }
+   .roof-install {
+    width: 300px;
+    position: absolute;
+    left: 20px;
+   }
+
+   
+   .page3-row-2 {
+    width: 380px;
+    margin-left: -53px;
+    flex-direction: column;
+   }
+   .row-2-img {
+    height: auto;
+    width: 90%;
+   }
+
+
+   /* page4 */
+   .page4 {
+    height: auto;
+   }
+   .page4-main {
+    width: 90%;
+    flex-direction: column;
+    gap: 50px;
+   }
+   .page4-cont {
+    width: fit-content;
+    height: auto;
+   }
+
+   .page4-cont-2 {
+    height: auto;
+    width: 100%;
+    padding: 0;
+   }
+   .percent {
+    width: 100%;
+   }
+
+   /* page4-end */
+
+
+ }
