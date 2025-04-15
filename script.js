@@ -96,22 +96,49 @@ page.addEventListener("scroll", function ()  {
 
 // swipper slider
 
-const productSwiper = new Swiper(".product-slider", {
+document.addEventListener("DOMContentLoaded", function () {
+  const customProductSlider = new Swiper(".custom-slider-container", {
+    wrapperClass: "custom-slider-wrapper",
+    slideClass: "custom-slider-slide",
+    slidesPerView: 3,
+    spaceBetween: 30,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 1500,
       disableOnInteraction: false,
     },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+    
+    breakpoints: {
+      1024: { slidesPerView: 3 },
+      768: { slidesPerView: 2 },
+      480: { slidesPerView: 1 },
     },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    speed: 800,
   });
+});
+
+
+
+
+// swipper slide2
+
+new Swiper('.roof-slider-container', {
+  wrapperClass: 'roof-slider-wrapper',
+  slideClass: 'roof-slide',
+  slidesPerView: 1,
+  spaceBetween: 30,
+  pagination: {
+    el: '.roof-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    }
+  }
+});
 
 
 
