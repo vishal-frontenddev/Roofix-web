@@ -248,7 +248,7 @@ nav {
     background-color: #212531;
     position: absolute;
     bottom: -200px;
-    left: 580px;
+    left: 570px;
     display: flex;
     justify-content: space-evenly;
     z-index: 11111111111;
@@ -448,6 +448,7 @@ nav {
   } 
   
   .card h3 {
+    color: #555;
     font-size: 22px;
     margin-top: 40px;
    
@@ -477,6 +478,7 @@ nav {
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
   }
   .card-footer-main {
     height: 50px;
